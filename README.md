@@ -1,5 +1,7 @@
 # Description
-Notebooks to analyze data to make a ML model that can predict Economic Crisis using macroeconomic data.
+Notebooks to analyze data to make a ML model that can predict Economic Crisis using macroeconomic data.  
+
+Used this paper [https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=EEAESEM2019&paper_id=1163] as reference. Changed features and reduced number of countries trying to improve model.
 
 # Objective
 Do a simplified model that works fine in a reduced group of countries.
@@ -16,4 +18,4 @@ Jupyter Notebook that contains model obtaining.
 Excel file that contains data.
 
 ## EDA.ipynb
-Jupyter Notebook with Graphs used to see and analyse data.
+Jupyter Notebook used as dump to analyze data and features.
