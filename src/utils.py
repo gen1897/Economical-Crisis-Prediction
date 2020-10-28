@@ -121,9 +121,10 @@ def create_features(df: pd.DataFrame, periods: int):
 
 
 def find_parameters(clf, param_grid: dict, X, y, scoring: str = "roc_auc", cv: int = 5, return_train: bool = True):
+    # Create grid
     grid_search = GridSearchCV(
         clf, param_grid, scoring=scoring, cv=cv, return_train_score=return_train)
-
+    # Fit grid to features and target
     grid_search.fit(X, y)
 
     return {"best_params": grid_search.best_params_, "score": grid_search.best_score_}
