@@ -1,8 +1,11 @@
 # Project Description
-Implementation of a Economical Crisis forecasting model using [Bluwstein & Others](https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=EEAESEM2019&paper_id=1163) as reference. Used a reduced cluster of countries in a shorter range of years in order to achieve a better model.
+Implementation of a Economical Crisis forecasting model following [Bluwstein & Others](https://editorialexpress.com/cgi-bin/conference/download.cgi?db_name=EEAESEM2019&paper_id=1163) as principal reference. Used a reduced cluster of countries in a shorter range of years in order to achieve a better model.  
+
+Python 3 required. To install necessary libraries run:
+- *pip install pandas numpy scikit-learn xgboost*
 
 # Dataset
-JST-Macrohistory DataBase. Almost used in every Crisis Forecasting study. Find it in the next document:  
+JST-Macrohistory DataBase. Used almost in every Crisis Forecasting paper. Find it in the next document:  
 http://www.macrohistory.net/JST/JSTdocumentationR2.pdf
 
 # Files
